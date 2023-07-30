@@ -1,0 +1,143 @@
+@media screen and (max-width:1120px) {
+        
+        .box h2 {
+            font-size: 30px;
+        }
+
+        .box-b .box {
+            padding-bottom: 5px;
+        }
+
+ 
+        .box-b .box-heading {
+        margin-top: 0;
+        font-size: 25px;
+        }
+
+        .box-b .long-copy {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+       .box-a {
+        line-height: 1.0;
+       }
+       .box-a p {
+        padding-top: 8px;
+       }
+       .box-a h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+
+       .box-e .box {
+        padding-bottom: 15px;
+       }
+}
+
+@media screen and (max-width: 980px) {
+    .box h2 {
+        font-size: 30px
+    }
+
+    .box .long-copy {
+        font-size: 18px;
+    }
+
+    .box-b .box-heading {
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .box-b .long-copy {
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .box-e .box-heading {
+        font-size: 20px;
+    }
+
+    .box-e .long-copy {
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+
+    .box-e a {
+        margin-left: 35%;
+    }
+
+    .terms {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .terms a {
+        text-align: center;
+        margin: 0;
+    }
+
+    .social-networks {
+        font-size: 20px;
+    }
+
+    .copyrights {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .grid-col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-reversed .box-img {
+        order: 0;
+    }
+
+    .box-text {
+        padding-bottom: 20px;
+    }
+
+    .box-e a {
+        margin-left: 40%;
+    }
+
+    .terms {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .terms a {
+        margin-left: 0;
+    }
+
+    .social-networks {
+        width: 100%;
+    }
+
+    .social-networks a {
+        font-size: 25px;
+    }
+
+    .copyrights p {
+        font-size: 14px;
+    }
+}
